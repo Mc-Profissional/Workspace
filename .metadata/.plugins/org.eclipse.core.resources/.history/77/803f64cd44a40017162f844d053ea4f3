@@ -1,0 +1,14 @@
+
+package preparaco;
+
+public class Preparaco {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+    Funcionario fn = new Funcionario();
+    fn.getNumIss();
+    }
+    
+}

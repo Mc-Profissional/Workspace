@@ -1,0 +1,19 @@
+package preparaco;
+
+/**
+ *
+ * @author LABORATORIO
+ */
+public interface Pessoa {
+
+    public void prinpessoa();
+
+    public String getNome();
+
+    public void setNome();
+
+    public int getNumeBI();
+
+    public void setNumerBI();
+    
+}

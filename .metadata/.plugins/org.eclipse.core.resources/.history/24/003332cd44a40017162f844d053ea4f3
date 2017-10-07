@@ -1,0 +1,46 @@
+package preparaco;
+
+/**
+ *
+ * @author LABORATORIO
+ */
+public class Funcionario implements Pessoa {
+
+    private String nome;
+    private int NumBI;
+    private int NumINSS;
+
+    public Funcionario() {
+        nome = "Muaco Oaria";
+        NumBI = 123456789;
+        NumINSS = 1234567890;
+    }
+
+    public void Funcionario(String nome, int NumBi, int NumINSS) {
+
+    }
+
+    public int getNumIss() {
+        return NumINSS;
+    }
+
+    public void setNumINSS() {
+        this.NumINSS = NumINSS;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome() {
+
+    }
+
+    public int getNumeBI() {
+        return NumBI;
+    }
+
+    public void setNumerBI() {
+
+    }
+}
